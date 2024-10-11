@@ -1,0 +1,178 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background: linear-gradient(45deg, #6A82FB, #020016);
+    color: #0bb1a3;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos del Header */
+.logo-container {
+    width: 700px; /* Mantén el tamaño que prefieras */
+    margin-bottom: 5px; /* Ajusta este valor para reducir espacio debajo del logo */
+    margin-top: -20px; /* Usar valores negativos mueve el logo hacia arriba */
+    transform: translateX(50%); /* Para centrar el logo horizontalmente */
+}
+
+
+.logo {
+    max-width: 300px;
+    height: auto;
+}
+
+.hero {
+    background: linear-gradient(45deg, #6A82FB, #020016);
+    color: #8ee6c8;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-principal {
+    padding: 15px 30px;
+    background-color: #3945a1;
+    color: #c4c0e0;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-principal:hover {
+    background-color: #053677;
+    color: #030833;
+}
+
+/* Sección General */
+.section {
+    padding: 60px 20px;
+    background-color: #022747;
+    margin: 20px 0;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    background-color: #6A82FB;
+    color: #8ee6c8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature h3 {
+    margin-bottom: 15px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.price-option {
+    background-color: #0969a8;
+    border: 2px solid #11b311;
+    padding: 30px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.price-option:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(57, 163, 8, 0.699);
+}
+
+.price-option h3 {
+    color: #203475;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.price-option p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.price-option ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.price-option ul li {
+    margin-bottom: 10px;
+}
+
+.btn-secundario {
+    padding: 10px 20px;
+    background-color: #3f8bee;
+    color: #48df1a;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secundario:hover {
+    background-color: #6A82FB;
+}
+
+blockquote {
+    background-color: #0d438a;
+    color: rgb(27, 177, 14);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #066a77;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 
